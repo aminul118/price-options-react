@@ -1,4 +1,5 @@
 // import DaisyNav from "./components/DaisyNav/DaisyNav";
+import LineChart from "./components/LineChart/LineChart";
 import Navbar from "./components/NavBar/Navbar";
 import PriceOptions from "./components/PriceOptions/PriceOptions";
 
@@ -8,6 +9,7 @@ export default function App() {
     {/* <DaisyNav></DaisyNav> */}
     <Navbar></Navbar>
     <PriceOptions></PriceOptions>
+    <LineChart></LineChart>
       
     </>
   );
