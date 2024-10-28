@@ -1,4 +1,4 @@
-import { LineChart as LChart, Line, XAxis, YAxis } from "recharts";
+import { LineChart as LChart, Line, XAxis, YAxis, Tooltip } from "recharts";
 export default function LineChart() {
   const mathMarksData = [
     {
@@ -74,6 +74,7 @@ export default function LineChart() {
           <Line type="monotone" dataKey="physics_marks" stroke="#7AB2D3" />
           <XAxis dataKey="id" />
           <YAxis />
+           <Tooltip />
         </LChart>
       </div>
     </div>

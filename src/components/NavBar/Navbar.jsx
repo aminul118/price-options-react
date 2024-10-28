@@ -14,7 +14,7 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="py-8 md:bg-slate-500 text-white md:shadow-lg">
+    <nav className="py-8 md:bg-slate-800 text-white md:shadow-lg">
       <div className="md:hidden text-2xl" onClick={() => setOpen(!open)}>
         {open === true ? (
           <AiOutlineClose></AiOutlineClose>

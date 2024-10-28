@@ -62,7 +62,7 @@ export default function PriceOptions() {
 
   return (
     <div>
-      <h2>Best Price in Town : {priceOptions.length}</h2>
+      <h2 className="text-center text-3xl mt-4 font-semibold py-4">Best Price in Town : {priceOptions.length}</h2>
       <div className="grid md:grid-cols-2 xl:grid-cols-3 p-4 gap-4">
         {priceOptions.map((option) => (
           <PriceOption key={option.id} option={option}></PriceOption>
